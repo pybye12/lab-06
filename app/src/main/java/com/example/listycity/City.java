@@ -33,7 +33,6 @@ public class City implements Comparable<City> {
     public int compareTo(City city) {
         return this.city.compareTo(city.getCityName());
     }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -41,7 +40,6 @@ public class City implements Comparable<City> {
         City city1 = (City) o;
         return city.equals(city1.city) && province.equals(city1.province);
     }
-
     @Override
     public int hashCode() {
         return city.hashCode();
