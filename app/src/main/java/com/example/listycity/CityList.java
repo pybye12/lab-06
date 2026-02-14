@@ -39,7 +39,7 @@ public class CityList {
     }
     /**
      * this deletes a city from the list.
-     * @param city hre is the city to delete
+     * @param city here is the city to delete
      * @throws IllegalArgumentException if the city is not found
      */
     public void delete(City city) {
