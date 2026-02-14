@@ -26,7 +26,7 @@ public class CityList {
      */
     public List<City> getCities() {
         List<City> list = cities;
-        Collections.sort(list); // [cite: 279]
+        Collections.sort(list); 
         return list;
     }
     /**
